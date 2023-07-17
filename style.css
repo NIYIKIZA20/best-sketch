@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: dimgray;
+}
+#button {
+  height: 40px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.board {
+  display: grid;
+  grid-gap: 0.1em;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  background-color: white;
+}
+.cell {
+  border: 0.1em solid rgb(0, 0, 200);
+  cursor: grab;
+}
+.buttons {
+  display: flex;
+  justify-content: safe;
+  padding-top: 0.5em;
+}
+#reset {
+  margin-left: 40%;
+  height: 3em;
+  width: 10em;
+}
+#button {
+  height: 3em;
+  width: 15em;
+}
+.specialbtn {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bolder;
+  font-style: italic;
+}
+#red:hover {
+  background-color: red;
+}
+#blue:hover {
+  background-color: blue;
+}
+#green:hover {
+  background-color: green;
+}
+#black:hover {
+  background-color:black;
+  color:white;
+}
+#eraser {
+  background-color:black;
+  color: white;
+}

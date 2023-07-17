@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">ETCH-A-SKETCH</div>
+      <div class="specialbtn">
+        <button id="button">Click to resize</button>
+        <button id="reset" onclick="reset()">Click to reset</button>
+      </div>
+      <div class="content">
+        <div class="board" id="board"></div>
+        <div class="buttons">
+          <button id="red" onclick="changeColor('red')">red</button>
+          <button id="blue" onclick="changeColor('blue')">blue</button>
+          <button id="green" onclick="changeColor('green')">green</button>
+          <button id="black" onclick="changeColor('black')">black</button>
+          <button id="eraser" onclick="changeColor('white')">Eraser</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
